@@ -14,6 +14,7 @@ QBCore.Functions.CreateCallback('skillsystem:fetchStatus', function(source, cb)
 		cb()
 	end
  end)
+
  
 RegisterServerEvent('skillsystem:update')
 AddEventHandler('skillsystem:update', function (data)

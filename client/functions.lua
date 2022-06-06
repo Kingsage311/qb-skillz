@@ -32,7 +32,7 @@ UpdateSkill = function(skill, amount)
     
     if SkillAmount + tonumber(amount) < 0 then
         Config.Skills[skill]["Current"] = 0
-    elseif SkillAmount + tonumber(amount) > 100 then
+    elseif SkillAmount + tonumber(amount) > 250000 then
         Config.Skills[skill]["Current"] = 100
     else
         Config.Skills[skill]["Current"] = SkillAmount + tonumber(amount)
@@ -42,9 +42,9 @@ UpdateSkill = function(skill, amount)
 
     if Config.Notifications and  tonumber(amount) > 0 then
         if Config.NotifyType == "3d" then
-            Notification("~g~+" .. amount .. "% ~s~" .. skill)
+            Notification("~g~+" .. amount .. " SHITTY NOTI SYSTEM ~s~" .. skill)
     elseif Config.NotifyType == 'qb' then
-        QBCore.Functions.Notify("+" .. amount .. "% " .. skill)
+        QBCore.Functions.Notify("+" .. amount .. " EXP " .. skill)
     elseif Config.NotifyType == "tnj" then
         exports['tnj-notify']:Notify("+" .. amount .. "% " .. skill, "primary", 1500)
     end
@@ -55,6 +55,10 @@ end
 
 function round(num) 
     return math.floor(num+.5) 
+end
+
+function round1(num) 
+    return math.floor(num+1) 
 end
 
 RefreshSkills = function()
