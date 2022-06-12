@@ -1,4 +1,4 @@
-## <h3 align='center'> Moved to a new organization now under Burn One Studios new repo can be found <a href='https://github.com/Kingsage311/qb-skillz-old'>here</a></h3>
+## <h3 align='center'> Moved to a new organization now under Burn One Studios new repo can be found <a href='https://github.com/Burn-One-Studios/B1-skillz'>here</a></h3>
 ## <h3 align='center'>For more support or to see more of my resources you can join my <a href='https://discord.gg/yKyN9Q3Vmy'>discord</a></h3>
 
 ### [ What is this? ]
